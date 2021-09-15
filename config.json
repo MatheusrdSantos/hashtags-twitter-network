@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Matheus Santos e Davis Victor"
+  },
+  "text": {
+    "more": "Esta rede foi constrída com base em 30 mil tweets que utilizaram a hashtag #7deSetPelaLiberdade. Cada hashtag que apareceu nos tweets foi inserida como um nó na rede e cada coocorrência de hashtagas foi inserida como uma conexão. O peso de cada conexão representa o número de vezes em que duas tags apareceram juntas.",
+    "intro": "Projeto de Análise de Redes com base nas hashtags utilizadas em conjunto com a hashtag #7deSetPelaLiberdade",
+    "title": "Rede de hashtags sobre as manifestações do dia 7 de Setembro"
+  },
+  "legend": {
+    "edgeLabel": "Ocorrência de duas hashtags no mesmo tweet",
+    "colorLabel": "Classe de modularidade",
+    "nodeLabel": "Hashtag"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
